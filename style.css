@@ -1,86 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('./default.css');
 
-header {
-    padding: 28px 0;
-    background: #00A3FF;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1140px;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-}
-
-a {
-    font-family: 'Roboto';
-    color: #fff;
-    font-size: 35px;
-}
-
-.special {
-    color: #FAFF00;
-}
-
-.logo {
-    width: 116px;
-    height: 94px;
-    background: url('https://s3-alpha-sig.figma.com/img/c2da/83ce/180dc97dec336a89e91c62963d6a7528?Expires=1649030400&Signature=cypmF-VfWN8I6m~bLkwjsaBH6TypMmmKAMj-d7bP0oyAAyF8zDsXSTeU4011FVWIxjqc1xwpWRwKkc~oUHzJt2vLiTJOn7VpT-rNzhF9XFzcLFVYiomrwMxXmgeeswqLYM4-9NKTM~0uYn8uIh7-eIahXwaUA5wpovonuFKYqJ2ZORH6p3ZUxdikWuCtJebYHeJZbHJi~lj24S1H7Aqj3gMO92TNa5Rf98BxQ-ENJTa6h0Rm1DwvfcctWcgnhroJ9940g1ujHHqDfXhXr-0tldO94CEb2I2~p279ug0okVI3md2x6V4fpLtgOgVmhpuKD42NTW0VsKGgoxibYMAKaQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA') center center/ cover ; 
-}
-
-section {
-    padding: 137px 0;
-}
-
-p {
-    font-family: 'Roboto';
+.square {
     width: 50%;
-    font-size: 35px;
 }
 
-.frame {
-    width: 30%;
-    height: 350px;
+.news-cover {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
 }
 
-img {
-    width: 350px;
-    height: 350px;
-    border-radius: 42px;
-}
-
-.section.contacts {
-    padding: 69px 0;
-}
-
-.container {
-    display: block;
-    justify-content: center;
-    align-content: space-between;
-}
-
-p2 {
-    display: block;
-    font-family: 'Roboto';
-    font-size: 35px;
-}
-
-.vector1 {
-    border: 1px solid #B8B8B8;
-    width: 428px;
-    margin: 40px auto;
-}
-
-.blockphone {
-    display: flex;
-    justify-content: center ;
+.gallery {
+    padding: 0 8px;
     margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
 }
-
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.imgonline.com.ua/examples/bee-on-daisy.jpg');
+    background-size: cover;
+}
