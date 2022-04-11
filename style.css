@@ -41,8 +41,11 @@ section {
 
 p {
     font-family: 'Roboto';
-    width: 50%;
     font-size: 35px;
+}
+
+.text {
+    width: 50%;
 }
 
 .frame {
